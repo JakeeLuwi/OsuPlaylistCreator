@@ -16,7 +16,8 @@ namespace OsuPlaylistCreator
             {
                 AudioFileName = GetProperty("AudioFilename"),
                 Title = GetProperty("Title"),
-                Artist = GetProperty("Artist")
+                Artist = GetProperty("Artist"),
+                BeatmapSetID = Convert.ToInt32(GetProperty("BeatmapSetID"))
             };
         }
 
@@ -42,5 +43,6 @@ namespace OsuPlaylistCreator
         public string Title { get; set; }
         public string Artist { get; set; }
         public string AudioFileName { get; set; }
+        public int BeatmapSetID { get; set; }
     }
 }

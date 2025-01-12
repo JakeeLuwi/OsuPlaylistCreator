@@ -1,0 +1,5 @@
+# use this file when you want to explicitly exclude a beatmap set ID
+# make sure to enable "UseExcludeFile" in OsuPlaylistCreator.exe.config
+#
+# example, to block "Orion Sun - Antidote" by Jamesjan3 which has a beatmapSetID of 2154716, do this (remove "#"):
+# 2154716

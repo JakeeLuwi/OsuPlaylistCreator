@@ -88,5 +88,32 @@ namespace OsuPlaylistCreator.Properties {
                 return ((bool)(this["ExcludeUnparsableAudios"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ResolveOsuPath {
+            get {
+                return ((bool)(this["ResolveOsuPath"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool UseExcludeFile {
+            get {
+                return ((bool)(this["UseExcludeFile"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool LogFailedParse {
+            get {
+                return ((bool)(this["LogFailedParse"]));
+            }
+        }
     }
 }
